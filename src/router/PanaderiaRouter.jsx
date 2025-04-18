@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router";
+import { Navigate, Route, Routes } from "react-router";
 
 import { HomePage } from "../page/HomePage";
 import { ShopPage } from "../page/ShopPage";
@@ -11,6 +11,7 @@ export function PanaderiaRouter() {
       <Route path="/" element={<HomePage />} />
       <Route path="shop" element={<ShopPage />} />
       <Route path="cart" element={<CartPage />} />
+      <Route path="/*" element={<Navigate to='/' />} />
 
     </Routes>
   );

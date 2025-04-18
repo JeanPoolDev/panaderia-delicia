@@ -10,9 +10,9 @@ export function Header() {
         </a>
         <nav className="hidden xl:flex gap-6 text-[#9e7d5d] font-bold text-lg">
           <a href="/">Inicio</a>
-          <a href="#about">Sobre nosotros</a>
-          <a href="#panes">Producto</a>
-          <a href="#place">Lugares</a>
+          <a href="/#about">Sobre nosotros</a>
+          <a href="/#panes">Producto</a>
+          <a href="/#place">Lugares</a>
           <a href="/shop">Tienda</a>
         </nav>
         <a
