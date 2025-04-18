@@ -9,8 +9,8 @@ export function PanaderiaRouter() {
     <Routes>
 
       <Route path="/" element={<HomePage />} />
-      <Route path="/shop" element={<ShopPage />} />
-      <Route path="/cart" element={<CartPage />} />
+      <Route path="shop" element={<ShopPage />} />
+      <Route path="cart" element={<CartPage />} />
 
     </Routes>
   );
